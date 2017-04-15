@@ -1,4 +1,4 @@
-FROM golang:1.7
+FROM golang:1.8.1-alpine
 
 # Install beego and the bee dev tool
 RUN go get github.com/astaxie/beego && go get github.com/beego/bee
